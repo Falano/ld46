@@ -13,6 +13,11 @@ public class CluesQuestion : MonoBehaviour
     private void Start()
     {
         CluesManager.CluesDictionary.Add(this, FungusClueName);
+
+        if (!CluesManager.BaseFlowChart.HasVariable(FungusClueName))
+        {
+            Debug.LogError("The variable " + FungusClueName + " doesn't exist for Clue " + LocalClue);
+        }
     }
 
     private void OnMouseDown()

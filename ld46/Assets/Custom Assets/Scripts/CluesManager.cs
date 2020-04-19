@@ -76,7 +76,10 @@ public static class CluesManager
     {
         foreach(KeyValuePair<CluesQuestion, string> clue in CluesDictionary)
         {
-            clue.Key.gameObject.SetActive(BaseFlowChart.GetBooleanVariable(clue.Value));
+            if (BaseFlowChart.HasVariable(clue.Value))
+            {
+                clue.Key.gameObject.SetActive(BaseFlowChart.GetBooleanVariable(clue.Value));
+            }
         }
     }
     
