@@ -50,7 +50,12 @@ public static class CluesManager
 public enum Clues
 {
     None,
-    BestFriend,
     Sam,
-    Pirate
+    Pirate,
+    Cat,
+    Bike,
+    PlayMusic,
+    PhoneNumber,
+    MusicBlog,
+    BlogContactForm
 }
