@@ -137,9 +137,6 @@ GameObject:
   - component: {fileID: 50923613}
   - component: {fileID: 50923632}
   - component: {fileID: 50923633}
-  - component: {fileID: 50923636}
-  - component: {fileID: 50923635}
-  - component: {fileID: 50923634}
   - component: {fileID: 50923638}
   - component: {fileID: 50923658}
   - component: {fileID: 50923657}
@@ -774,7 +771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -136.60217
     y: -264.69696
-    width: 129.25528
+    width: 129.33969
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -814,11 +811,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 79.0656, y: 321.85257}
+  scrollPos: {x: 299.80054, y: 344.34027}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 543
-  zoom: 0.9400004
+  zoom: 0.93900037
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -826,12 +823,10 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 50923611}
-  selectedCommands: []
-  variables:
-  - {fileID: 50923636}
-  - {fileID: 50923635}
-  - {fileID: 50923634}
+  - {fileID: 50923630}
+  selectedCommands:
+  - {fileID: 50923638}
+  variables: []
   description: Music Listener Flowchart
   stepPause: 0
   colorCommands: 1
@@ -881,51 +876,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 50923612}
   suppressAllAutoSelections: 0
---- !u!114 &50923634
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50923608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: BestFriend
-  value: 0
---- !u!114 &50923635
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50923608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: Pirate
-  value: 0
---- !u!114 &50923636
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50923608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 1
-  key: Sam
-  value: 0
 --- !u!114 &50923637
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7242,9 +7192,6 @@ GameObject:
   - component: {fileID: 1115058332}
   - component: {fileID: 1115058320}
   - component: {fileID: 1115058311}
-  - component: {fileID: 1115058337}
-  - component: {fileID: 1115058336}
-  - component: {fileID: 1115058335}
   - component: {fileID: 1115058363}
   - component: {fileID: 1115058362}
   - component: {fileID: 1115058361}
@@ -7292,6 +7239,10 @@ GameObject:
   - component: {fileID: 1115058313}
   - component: {fileID: 1115058312}
   - component: {fileID: 1115058310}
+  - component: {fileID: 1115058364}
+  - component: {fileID: 1115058337}
+  - component: {fileID: 1115058336}
+  - component: {fileID: 1115058335}
   m_Layer: 0
   m_Name: RabbitGuy_Flowchart
   m_TagString: Untagged
@@ -7736,7 +7687,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 80.0791
-    y: -56.675976
+    y: -55.674976
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7747,6 +7698,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1115058310}
+  - {fileID: 1115058336}
+  - {fileID: 1115058337}
+  - {fileID: 1115058364}
+  - {fileID: 1115058335}
   suppressAllAutoSelections: 0
 --- !u!114 &1115058327
 MonoBehaviour:
@@ -7950,12 +7905,11 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
-  variables:
-  - {fileID: 1115058337}
-  - {fileID: 1115058336}
-  - {fileID: 1115058335}
+  selectedBlocks:
+  - {fileID: 1115058332}
+  selectedCommands:
+  - {fileID: 1115058363}
+  variables: []
   description: RabbitPerson Flowchart
   stepPause: 0
   colorCommands: 1
@@ -8002,12 +7956,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115058308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
-  key: BestFriend
-  value: 0
+  itemId: 289
+  indentLevel: 0
+  storyText: "Ow, you missed me, James Alexander Hillbury? Don\u2019t worry I\u2019m
+    all yours now!"
+  description: 
+  character: {fileID: 830753162}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1115058336
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8017,12 +7984,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115058308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
-  key: Pirate
-  value: 0
+  itemId: 288
+  indentLevel: 0
+  storyText: "I\u2019m fine, I just remembered something. "
+  description: 
+  character: {fileID: 173290772}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1115058337
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8032,12 +8011,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115058308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
-  key: Sam
-  value: 0
+  itemId: 287
+  indentLevel: 0
+  storyText: Okay, cool.
+  description: 
+  character: {fileID: 830753162}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1115058338
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8804,9 +8795,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
-  targetObject: {fileID: 50923608}
+  targetObject: {fileID: 1115058308}
   methodName: SetActiveFlowChart
   delay: 0
+--- !u!114 &1115058364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115058308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 286
+  indentLevel: 0
+  storyText: See you later!
+  description: 
+  character: {fileID: 173290772}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!4 &1166525233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1010458698488204432, guid: ac0837c41ea44234ab933bf74778667a,
@@ -9339,6 +9357,8 @@ GameObject:
   - component: {fileID: 1553620770}
   - component: {fileID: 1553620769}
   - component: {fileID: 1553620767}
+  - component: {fileID: 1553620807}
+  - component: {fileID: 1553620806}
   m_Layer: 0
   m_Name: PassedOutGuy1_Flowchart
   m_TagString: Untagged
@@ -10054,8 +10074,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1553620789}
+  selectedCommands:
+  - {fileID: 1553620805}
   variables:
   - {fileID: 1553620794}
   description: Passed Out Guy 1 Flowchart
@@ -10499,9 +10521,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
-  targetObject: {fileID: 50923608}
+  targetObject: {fileID: 1553620765}
   methodName: SetActiveFlowChart
   delay: 0
+--- !u!114 &1553620806
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553620765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 0
+  storyText: No clue on that one.
+  description: 
+  character: {fileID: 531057336}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1553620807
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553620765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 235.8027
+    y: -100.16589
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 250
+  blockName: default
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1553620806}
+  suppressAllAutoSelections: 0
 --- !u!1 &1633885831
 GameObject:
   m_ObjectHideFlags: 0
