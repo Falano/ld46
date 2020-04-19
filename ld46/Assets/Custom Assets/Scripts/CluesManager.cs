@@ -21,13 +21,39 @@ public static class CluesManager
 
     private static Clues activeClue;
 
-    public static bool isBestFriendActive;
-    public static bool isSamActive;
-    public static bool isPirateActive;
+    public static Dictionary<CluesQuestion, string> CluesDictionary = new Dictionary<CluesQuestion, string>();
 
     public static Flowchart ActiveFlowChart { get; internal set; }
+    public static Flowchart BaseFlowChart
+    {
+        get
+        {
+            if (baseFlowChart == null)
+            {
+                // first base flowchart
+                List<Flowchart> flowCharts = Flowchart.CachedFlowcharts;
+                foreach(Flowchart chart in flowCharts)
+                {
+                    if(chart.name == baseFlowChartsName)
+                    {
+                        baseFlowChart = chart;
+                        break;
+                    }
+                }
+            }
+            return baseFlowChart;
+        }
+    }
+    private static Flowchart baseFlowChart;
+    private static string baseFlowChartsName = "Base_Flowchart";
 
     public static void NotifyFlowChart()
+    {
+        CheckAndGoToClueDialog();
+        UpdateCluesButtons();
+    }
+
+    private static void CheckAndGoToClueDialog()
     {
         if (ActiveFlowChart == null) return;
 
@@ -38,12 +64,28 @@ public static class CluesManager
             {
                 ActiveFlowChart.ExecuteBlock(activeClue.ToString());
             }
-            else {
+            else
+            {
                 ActiveFlowChart.ExecuteBlock("default");
             }
             ActiveClue = Clues.None;
         }
+    }
 
+    public static void UpdateCluesButtons()
+    {
+        foreach(KeyValuePair<CluesQuestion, string> clue in CluesDictionary)
+        {
+            clue.Key.gameObject.SetActive(BaseFlowChart.GetBooleanVariable(clue.Value));
+        }
+    }
+    
+    public static void HideAllCluesButtons()
+    {
+        foreach (KeyValuePair<CluesQuestion, string> clue in CluesDictionary)
+        {
+            clue.Key.gameObject.SetActive(false);
+        }
     }
 }
 

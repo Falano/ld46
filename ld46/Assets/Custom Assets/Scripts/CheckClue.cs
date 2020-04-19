@@ -15,5 +15,6 @@ public class CheckClue : MonoBehaviour
     public void SetActiveFlowChart()
     {
         CluesManager.ActiveFlowChart = this.Flowchart;
+        CluesManager.UpdateCluesButtons();
     }
 }
