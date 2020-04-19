@@ -16,19 +16,4 @@ public class CheckClue : MonoBehaviour
     {
         CluesManager.ActiveFlowChart = this.Flowchart;
     }
-
-    public void DownloadAvailableCluesFromFungus()
-    {
-        CluesManager.isBestFriendActive = Flowchart.GetBooleanVariable("BestFriend");
-        CluesManager.isPirateActive = Flowchart.GetBooleanVariable("Pirate");
-        CluesManager.isSamActive = Flowchart.GetBooleanVariable("Sam");
-    }
-
-    public void UploadAvailableCluesToFungus()
-    {
-        Flowchart.SetBooleanVariable("BestFriend", CluesManager.isBestFriendActive);
-        Flowchart.SetBooleanVariable("Pirate", CluesManager.isPirateActive);
-        Flowchart.SetBooleanVariable("Sam", CluesManager.isSamActive);
-    }
-
 }
