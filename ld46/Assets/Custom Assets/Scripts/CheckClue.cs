@@ -12,18 +12,10 @@ public class CheckClue : MonoBehaviour
         Flowchart = gameObject.GetComponent<Flowchart>();
     }
 
-
-    public void CheckForClues()
+    public void SetActiveFlowChart()
     {
-        if(CluesManager.ActiveClue != Clues.None)
-        {
-            Flowchart.StopAllBlocks();
-            Flowchart.ExecuteBlock(CluesManager.ActiveClue.ToString());
-            CluesManager.ActiveClue = Clues.None;
-        }
-        DownloadAvailableCluesFromFungus();
+        CluesManager.ActiveFlowChart = this.Flowchart;
     }
-
 
     public void DownloadAvailableCluesFromFungus()
     {
