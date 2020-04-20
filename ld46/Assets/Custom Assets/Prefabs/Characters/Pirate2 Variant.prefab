@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6594421026342241505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -153.12506
+    y: -146.75139
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 201
+  blockName: Start
+  description: 'It''s the wrong one.
+
+    They show you a picture of their sister.
+    It''s not her (that''s a ghost pirate, not a pirate-pirate!).
+
+    if you didn''t
+    already know, you realize the party''s theme was "outlaws".'
+  eventHandler: {fileID: 4413218960662880499}
+  commandList:
+  - {fileID: 5908963791865800034}
+  - {fileID: 542331848717564908}
+  suppressAllAutoSelections: 0
+--- !u!114 &5908963791865800034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  methodName: SetActiveFlowChart
+  delay: 0
+--- !u!114 &542331848717564908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player: Hey, you\u2019re\u2026 not who I am looking for.\r\nPirate
+      2: Huh. What?\r\nPlayer: Wrong pirate.\r\nPirate 2: Wrong pirate, eh? Hmm\u2026
+      Alright, hmm... My sister is a pirate too, maybe it\u2019s her?\r\nPlayer:
+      I\u2019ll talk to her, where is she?\r\nPirate 2: No idea, but I can show you
+      a picture?\r\nPlayer: She was at the party?\r\nPirate 2: Yes, she was! We had
+      great fun last night. I have blackmail material for years now. \r\nPlayer:
+      Great, show me the picture.\r\nPirate 2: Here you go.\r\nPlayer: It\u2019s
+      not her either. Well, thanks anyway.\r\nPirate 2: Alright, good luck.\r\nPlayer:
+      Thanks, have a nice day.\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &4413218960662880499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 6594421026342241505}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 0}
+  waitFrames: 1
+--- !u!114 &44799049078819867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -149.95547
+    y: 33.58183
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 202
+  blockName: Sam
+  description: no idea
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2652825190938056165}
+  suppressAllAutoSelections: 0
+--- !u!114 &2652825190938056165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Player: Do you know Sam, maybe?
+
+      Pirate 2: No, no Sam around
+      here, sorry.
+
+'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &5527904558083570929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 13.867363
+    y: 36.64027
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 203
+  blockName: Pirate
+  description: yeah me
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 8176126269108253043}
+  suppressAllAutoSelections: 0
+--- !u!114 &8176126269108253043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player: Have you seen any pirates around?\r\nPirate 2: Well, I-\r\nPlayer:
+      Except for yourself.\r\nPirate 2: Ow, you\u2019re no fun. I feel like most
+      pirates went home. It\u2019s just me and my siblings now.\r\nPlayer: Too bad.
+      Thanks.\r"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &2329324494605958726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 203.77338
+    y: 37.684883
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 211
+  blockName: default
+  description: no idea
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1286896960918582998}
+  suppressAllAutoSelections: 0
+--- !u!114 &1286896960918582998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171152353712246501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player: He looks busy, I\u2019d better not bother him any more.\r"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!1001 &2092825869054731300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4297060439210151938, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pirate2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827095729331699406, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629788361923312227, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: variable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271310089489, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pirate2_Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271310089491, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: nameText
+      value: Pirate 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121425, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121427, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121432, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121433, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121601, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pirate2_Flowchart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121635, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121636, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121637, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121639, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121646, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121648, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121651, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121652, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: description
+      value: Pirate 2 Flowchart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: luaBindingName
+      value: Pirate2_flowchart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 2329324494605958726}
+    - target: {fileID: 9119291271431121657, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121660, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121661, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121662, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271618206627, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Name
+      value: Pirate2_Sprite
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9119291271431121647, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121427, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121424, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121425, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121435, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121434, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121437, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121436, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121439, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121438, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121432, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121433, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 6629788361923312227, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121638, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121636, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121639, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121659, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121655, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121637, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121634, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121635, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121653, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121652, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121644, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121646, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121633, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121632, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121662, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121649, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121648, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121651, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121650, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121660, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121663, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121656, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121661, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121607, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121606, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121657, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121658, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121604, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121605, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 4827095729331699406, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121640, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121603, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+    - {fileID: 9119291271431121602, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ac31a8186e038594e9a5eeeffe85659e, type: 3}
+--- !u!1 &7171152353712246501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9119291271431121601, guid: ac31a8186e038594e9a5eeeffe85659e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2092825869054731300}
+  m_PrefabAsset: {fileID: 0}

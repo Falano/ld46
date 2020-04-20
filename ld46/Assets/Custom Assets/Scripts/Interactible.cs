@@ -5,13 +5,14 @@ using Fungus;
 
 public class Interactible : MonoBehaviour
 {
-    public Flowchart Flowchart { get; private set; }
-    //public GameObject Sprite { get; private set; }
+    [SerializeField]
+    Flowchart Flowchart;
+    [SerializeField]
+    GameObject Sprite;
 
     private void Start()
     {
-        Flowchart = gameObject.GetComponent<Flowchart>();
-        //Sprite = gameObject.GetComponentInChildren<Clickable2D>().gameObject;
+        InteractiblesManager.InteractiblesList.Add(this);
     }
 
     public void SetActiveFlowChart()
@@ -20,8 +21,16 @@ public class Interactible : MonoBehaviour
         DialogPromptsManager.UpdateDialogPromptButtons();
     }
     
+    public void LeaveFlowchart()
+    {
+        InteractiblesManager.UpdateInteractiblesVisibility();
+    }
+
     public void UpdateVisibility()
     {
-        //Sprite.SetActive(Flowchart.GetBooleanVariable("isAvailable"));
+        if(Sprite != null)
+        {
+            Sprite.SetActive(Flowchart.GetBooleanVariable("isAvailable"));
+        }
     }
 }

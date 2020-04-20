@@ -50,7 +50,6 @@ public static class DialogPromptsManager
     private static void NotifyFlowChart()
     {
         CheckAndGoToDialog();
-        UpdateDialogPromptButtons();
     }
 
     private static void CheckAndGoToDialog()
