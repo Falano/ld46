@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!61 &3510385130422182719
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4763463149638951222}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3, y: 3}
-  m_EdgeRadius: 0
 --- !u!212 &230624625995771065
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +39,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d5c3aae71b10c7a448acbd4bf8cd39a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,20 +72,40 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5170253918668886701, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170253918668886701, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170253918668886701, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170253918668886701, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.96
+      objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.38
+      value: -5.19
       objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.15
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -11.3
       objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
@@ -152,6 +146,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9119291271310089489, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
@@ -377,8 +381,7 @@ PrefabInstance:
         type: 3}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 9108612275759334491, guid: b622df9eba90e164e97ba3edf07877b2,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: description
@@ -403,8 +406,7 @@ PrefabInstance:
         type: 3}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 6959396252048818422, guid: b622df9eba90e164e97ba3edf07877b2,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 9119291271431121657, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: portrait
