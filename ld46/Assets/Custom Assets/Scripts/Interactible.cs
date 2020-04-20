@@ -13,14 +13,17 @@ public class Interactible : MonoBehaviour
     private void Start()
     {
         InteractiblesManager.InteractiblesList.Add(this);
+        DialogPromptsManager.UpdateDialogPromptButtons();
+        InteractiblesManager.UpdateInteractiblesVisibility();
     }
 
     public void SetActiveFlowChart()
     {
         DialogPromptsManager.ActiveFlowChart = this.Flowchart;
         DialogPromptsManager.UpdateDialogPromptButtons();
+        InteractiblesManager.UpdateInteractiblesVisibility();
     }
-    
+
     public void LeaveFlowchart()
     {
         InteractiblesManager.UpdateInteractiblesVisibility();
