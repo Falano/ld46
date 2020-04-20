@@ -121,18 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &72421023 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2702257980906911996, guid: 3a2c59b0f0b342f4a8028d4f799b14c4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2905871430797863551}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472693335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &87503076 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2108244992860494625, guid: 1cae5dd11f466fb489c38ab96f93bd1d,
@@ -173,6 +161,164 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &363790339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7171152353712246501, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4842304487342135658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363790340
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363790339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  variable: {fileID: 832798292}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &363790341
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363790339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  variable: {fileID: 363790351}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &363790351 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6914854978962037432, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4842304487342135658}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363790339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &363790352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7171152353712246482, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4842304487342135658}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363790339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &401595125 stripped
@@ -951,6 +1097,252 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &832798273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2167610587339119737, guid: 01ec31f3545613c41b47045930e322b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7847458479087326096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &832798274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player P_A left: He looks busy, I\u2019d better not bother him any
+      more.\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &832798275
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 240
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player P_A left: You seen any pirates around?\r\nPirate1 Pi1 right:
+      Yeah, duh, me.\r\nPlayer P_A left: No but like, other than you?\r\nPirate1
+      Pi1 right: All of my family? Can\u2019t really help you there, sorry.\r"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &832798276
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 207.62221
+    y: -139.76486
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 202
+  blockName: Pirate
+  description: no idea
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 832798275}
+  suppressAllAutoSelections: 0
+--- !u!114 &832798277
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 238
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Player P_A left: Do you know Sam?
+
+      Pirate1 Pi1 right: Sometimes
+      I feel like half of my friends are called Sam.
+
+'
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &832798278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 207.62221
+    y: -139.76486
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 202
+  blockName: Sam (Copy)
+  description: no idea
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 832798277}
+  suppressAllAutoSelections: 0
+--- !u!114 &832798279
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 236
+  indentLevel: 0
+  targetFlowchart: {fileID: 832798293}
+  targetBlock: {fileID: 832798283}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &832798280
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 235
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player P_A left: Oh, you\u2019re not the right one.\r\nPirate1 Pi1
+      right: What do you mean I\u2019m not the right one? I\u2019m always the right
+      one!\r\nPlayer P_A left: Well, I\u2019m looking for someone. Not you, obviously.\r\nPirate1
+      Pi1 right: Hmmm\u2026 Are you sure it\u2019s not me?\r\nPlayer P_A left: I
+      am pretty sure about it.\r\nPirate1 Pi1 right: How were they dressed last night?\r\nPlayer
+      P_A left: Well, like a pirate.\r\n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &832798283 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3930607317906377970, guid: 01ec31f3545613c41b47045930e322b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7847458479087326096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &832798292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2479113663569414180, guid: 01ec31f3545613c41b47045930e322b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7847458479087326096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &832798293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2167610587339119694, guid: 01ec31f3545613c41b47045930e322b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7847458479087326096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832798273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &874366435 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6578587061309460451, guid: 2159de7e39a9a2e42a2aea2a163374ce,
@@ -2227,7 +2619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 72421023}
+  selectedFlowchart: {fileID: 363790352}
 --- !u!4 &1826265675
 Transform:
   m_ObjectHideFlags: 1
@@ -4999,6 +5391,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464271368}
     m_Modifications:
+    - target: {fileID: 44799049078819867, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -151.68259
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329324494605958726, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 205.50049
+      objectReference: {fileID: 0}
     - target: {fileID: 2785775135041270822, guid: 00443a49f7dfb8b4d9c260674572f7fc,
         type: 3}
       propertyPath: m_Name
@@ -5014,6 +5416,31 @@ PrefabInstance:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 1565331548}
+    - target: {fileID: 6594421026342241505, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594421026342241505, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 128.75641
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594421026342241505, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 363790341}
+    - target: {fileID: 6594421026342241505, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 363790340}
+    - target: {fileID: 7171152353712246482, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7171152354631448887, guid: 00443a49f7dfb8b4d9c260674572f7fc,
         type: 3}
       propertyPath: nameColor.r
@@ -5276,6 +5703,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464271368}
     m_Modifications:
+    - target: {fileID: 346306454160789917, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 79.69328
+      objectReference: {fileID: 0}
     - target: {fileID: 760516319837307868, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5331,6 +5763,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 946778052294124580, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 946778052294124580, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 36.65074
+      objectReference: {fileID: 0}
+    - target: {fileID: 946778052294124580, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -141.25963
+      objectReference: {fileID: 0}
     - target: {fileID: 1042183890368481921, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}
       propertyPath: clickableObject
@@ -5356,6 +5803,46 @@ PrefabInstance:
       propertyPath: selectedBlocks.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3930607317906377970, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930607317906377970, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -50.53911
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930607317906377970, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: -3.9328566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122240055797242718, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122240055797242718, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.width
+      value: 127.72789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122240055797242718, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 832798280}
+    - target: {fileID: 4122240055797242718, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 832798279}
+    - target: {fileID: 4122240055797242718, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: -102.447586
+      objectReference: {fileID: 0}
     - target: {fileID: 5361809506811011797, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}
       propertyPath: targetObject
@@ -5376,7 +5863,41 @@ PrefabInstance:
       propertyPath: variable
       value: 
       objectReference: {fileID: 1650048100}
-    m_RemovedComponents: []
+    - target: {fileID: 7658716269255016020, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: conversationText.stringVal
+      value: 'Player P_A left: Do you know Sam?
+
+        Pirate1 Pi1 right: Sometimes
+        I feel like half of my friends are called Sam.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979420323892992668, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979420323892992668, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.x
+      value: 197.9389
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979420323892992668, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: nodeRect.y
+      value: 7.8442154
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979420323892992668, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 832798274}
+    m_RemovedComponents:
+    - {fileID: 1786901680010878757, guid: 01ec31f3545613c41b47045930e322b8, type: 3}
+    - {fileID: 135323609518374596, guid: 01ec31f3545613c41b47045930e322b8, type: 3}
+    - {fileID: 7891908269071893867, guid: 01ec31f3545613c41b47045930e322b8, type: 3}
+    - {fileID: 384561184268663332, guid: 01ec31f3545613c41b47045930e322b8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 01ec31f3545613c41b47045930e322b8, type: 3}
 --- !u!4 &7847458479087326097 stripped
 Transform:
