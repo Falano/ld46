@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class InteractiblesManager
 {
-    public static List<Interactible> InteractiblesList;
+    public static List<Interactible> InteractiblesList = new List<Interactible>();
 
     public static void UpdateInteractiblesVisibility()
     {
