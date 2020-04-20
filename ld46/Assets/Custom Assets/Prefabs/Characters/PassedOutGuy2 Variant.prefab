@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &6867898668849030416
+--- !u!114 &80891482603857484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,29 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 6578587061114355335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -237.00993
-    y: -244.50723
-    width: 141.19162
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 201
-  blockName: Start
-  description: 'POG2 only answers the first time you ask them something
-
-    Player
-    asks the guy passed out on the couch next to him if...'
-  eventHandler: {fileID: 7895688019039040028}
-  commandList:
-  - {fileID: 1493205430265606616}
-  - {fileID: 5596968743998207659}
-  - {fileID: 9179038487909426266}
-  suppressAllAutoSelections: 0
+  itemId: 208
+  indentLevel: 0
+  storyText: "I don\u2019t think he\u2019ll answer, I should stop bothering him.\r"
+  description: 
+  character: {fileID: 6578587062034319701}
+  portrait: {fileID: 21300000, guid: c6730bf895ed87d4ba33d9168ec17f45, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1493205430265606616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,9 +41,93 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 6578587061114355335}
   methodName: SetActiveFlowChart
   delay: 0
+--- !u!114 &2125816238149475045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578587061114355335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+  storyText: "Do you know someone called Sam?\r"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f65c5ebc69652db4cb7cc7c5e1d27acc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &3130305499300961018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578587061114355335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Player P_A: Have you seen anyone dressed as a pirate?\r\nPassed Out
+      Guy 2 POG2: Please stop....\r"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &3591175451941049444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578587061114355335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 204
+  indentLevel: 0
+  storyText: "Shhh, oh my god, shut up\u2026\r"
+  description: 
+  character: {fileID: 6578587062034319701}
+  portrait: {fileID: 21300000, guid: c6730bf895ed87d4ba33d9168ec17f45, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &5596968743998207659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +147,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f65c5ebc69652db4cb7cc7c5e1d27acc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -78,7 +157,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &9179038487909426266
+--- !u!114 &6867898668849030416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,26 +166,84 @@ MonoBehaviour:
   m_GameObject: {fileID: 6578587061114355335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: 'Go away, no talking, I hate you!
+  nodeRect:
+    serializedVersion: 2
+    x: -237.00993
+    y: -244.50723
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 201
+  blockName: Start
+  description: 'POG2 only answers the first time you ask them something
 
-'
+    Player
+    asks the guy passed out on the couch next to him if...'
+  eventHandler: {fileID: 7895688019039040028}
+  commandList:
+  - {fileID: 1493205430265606616}
+  - {fileID: 5596968743998207659}
+  - {fileID: 9179038487909426266}
+  suppressAllAutoSelections: 0
+--- !u!114 &7364712310745567602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578587061114355335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 104.58415
+    y: -124.67098
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 211
+  blockName: default
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 80891482603857484}
+  suppressAllAutoSelections: 0
+--- !u!114 &7874240672922709075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578587061114355335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -70.086655
+    y: -121.67552
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 203
+  blockName: Pirate
+  description: POG2 tells you it was an outlaw party half of the people were dressed
+    as pirates.
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 3130305499300961018}
+  suppressAllAutoSelections: 0
 --- !u!114 &7895688019039040028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,7 +288,7 @@ MonoBehaviour:
   - {fileID: 2125816238149475045}
   - {fileID: 3591175451941049444}
   suppressAllAutoSelections: 0
---- !u!114 &2125816238149475045
+--- !u!114 &9179038487909426266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,151 +300,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 212
+  itemId: 3
   indentLevel: 0
-  storyText: "Do you know someone called Sam?\r"
+  storyText: 'Go away, no talking, I hate you!
+
+'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &3591175451941049444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578587061114355335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 204
-  indentLevel: 0
-  storyText: "Shhh, oh my god, shut up\u2026\r"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &7874240672922709075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578587061114355335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -70.086655
-    y: -121.67552
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 203
-  blockName: Pirate
-  description: POG2 tells you it was an outlaw party half of the people were dressed
-    as pirates.
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 3130305499300961018}
-  suppressAllAutoSelections: 0
---- !u!114 &3130305499300961018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578587061114355335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 206
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Player: Have you seen anyone dressed as a pirate?\r\nPassed Out Guy
-      2: Please stop....\r"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &7364712310745567602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578587061114355335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 104.58415
-    y: -124.67098
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 211
-  blockName: default
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 80891482603857484}
-  suppressAllAutoSelections: 0
---- !u!114 &80891482603857484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6578587061114355335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 208
-  indentLevel: 0
-  storyText: "I don\u2019t think he\u2019ll answer, I should stop bothering him.\r"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 6578587062034319701}
+  portrait: {fileID: 21300000, guid: c6730bf895ed87d4ba33d9168ec17f45, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -342,12 +342,12 @@ PrefabInstance:
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.15
       objectReference: {fileID: 0}
     - target: {fileID: 7644641358900884836, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
@@ -401,9 +401,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9119291271310089491, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271310089491, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
       propertyPath: nameText
       value: Passed Out Guy 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9119291271310089491, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c6730bf895ed87d4ba33d9168ec17f45,
+        type: 3}
     - target: {fileID: 9119291271431121425, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: character
@@ -472,7 +483,7 @@ PrefabInstance:
     - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
@@ -484,6 +495,11 @@ PrefabInstance:
       propertyPath: luaBindingName
       value: PassedOutGuy2_flowchart
       objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: selectedBlocks.Array.data[0]
+      value: 
+      objectReference: {fileID: 6867898668849030416}
     - target: {fileID: 9119291271431121657, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: character
@@ -563,3 +579,15 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2721842184021824582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6578587062034319701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9119291271310089491, guid: ac31a8186e038594e9a5eeeffe85659e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2721842184021824582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
