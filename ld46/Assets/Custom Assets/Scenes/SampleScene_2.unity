@@ -2624,7 +2624,7 @@ PrefabInstance:
     - target: {fileID: 6372029479896457685, guid: 1cae5dd11f466fb489c38ab96f93bd1d,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6415665139498589434, guid: 1cae5dd11f466fb489c38ab96f93bd1d,
         type: 3}
@@ -2785,6 +2785,7 @@ GameObject:
   - component: {fileID: 1010458697996635656}
   - component: {fileID: 1010458697996635657}
   - component: {fileID: 1010458697996635658}
+  - component: {fileID: 1010458697996635664}
   m_Layer: 0
   m_Name: MusicBlog
   m_TagString: Untagged
@@ -2792,6 +2793,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458697996635664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458697996635663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1010458697999017864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2804,6 +2817,7 @@ GameObject:
   - component: {fileID: 1010458697999017871}
   - component: {fileID: 1010458697999017870}
   - component: {fileID: 1010458697999017869}
+  - component: {fileID: 1010458697999017865}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -2811,6 +2825,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458697999017865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458697999017864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1010458697999017868
 Transform:
   m_ObjectHideFlags: 0
@@ -3031,6 +3057,7 @@ GameObject:
   - component: {fileID: 1010458698686205024}
   - component: {fileID: 1010458698686205025}
   - component: {fileID: 1010458698686205026}
+  - component: {fileID: 1010458698686205032}
   m_Layer: 0
   m_Name: BlogContactForm
   m_TagString: Untagged
@@ -3038,6 +3065,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458698686205032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458698686205031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1010458698765402408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3154,6 +3193,7 @@ GameObject:
   - component: {fileID: 1010458698765402408}
   - component: {fileID: 1010458698765402409}
   - component: {fileID: 1010458698765402410}
+  - component: {fileID: 1010458698765402416}
   m_Layer: 0
   m_Name: Sam
   m_TagString: Untagged
@@ -3161,6 +3201,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458698765402416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458698765402415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1010458698871160785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3225,7 @@ GameObject:
   - component: {fileID: 1010458698871160790}
   - component: {fileID: 1010458698871160791}
   - component: {fileID: 1010458698871160788}
+  - component: {fileID: 1010458698871160786}
   m_Layer: 0
   m_Name: Pirate
   m_TagString: Untagged
@@ -3180,6 +3233,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458698871160786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458698871160785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1010458698871160788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3400,6 +3465,7 @@ GameObject:
   - component: {fileID: 1010458698938719906}
   - component: {fileID: 1010458698938719907}
   - component: {fileID: 1010458698938719904}
+  - component: {fileID: 1010458698938719910}
   m_Layer: 0
   m_Name: Leave
   m_TagString: Untagged
@@ -3407,6 +3473,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458698938719910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458698938719909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1010458699419969360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3523,6 +3601,7 @@ GameObject:
   - component: {fileID: 1010458699419969362}
   - component: {fileID: 1010458699419969363}
   - component: {fileID: 1010458699419969360}
+  - component: {fileID: 1010458699419969366}
   m_Layer: 0
   m_Name: Bike
   m_TagString: Untagged
@@ -3530,6 +3609,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458699419969366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458699419969365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1010458699448571937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,6 +3633,7 @@ GameObject:
   - component: {fileID: 1010458699448571942}
   - component: {fileID: 1010458699448571943}
   - component: {fileID: 1010458699448571940}
+  - component: {fileID: 1010458699448571938}
   m_Layer: 0
   m_Name: PlayMusic
   m_TagString: Untagged
@@ -3549,6 +3641,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458699448571938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458699448571937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1010458699448571940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3769,6 +3873,7 @@ GameObject:
   - component: {fileID: 1010458699776479363}
   - component: {fileID: 1010458699776479362}
   - component: {fileID: 1010458699776479361}
+  - component: {fileID: 1010458699776479365}
   m_Layer: 0
   m_Name: PhoneNumber
   m_TagString: Untagged
@@ -3776,6 +3881,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1010458699776479365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458699776479364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1407397237438729709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4171,7 +4288,7 @@ PrefabInstance:
     - target: {fileID: 2702257980906911996, guid: 3a2c59b0f0b342f4a8028d4f799b14c4,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2702257981827927833, guid: 3a2c59b0f0b342f4a8028d4f799b14c4,
         type: 3}
@@ -5237,7 +5354,7 @@ PrefabInstance:
     - target: {fileID: 2167610587339119694, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5361809506811011797, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}

@@ -3302,7 +3302,7 @@ PrefabInstance:
     - target: {fileID: 4297060439210151938, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_Name
-      value: BestFriend
+      value: BestFriend Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5170253918668886701, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
