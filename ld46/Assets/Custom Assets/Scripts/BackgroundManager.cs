@@ -15,6 +15,9 @@ public class BackgroundManager : MonoBehaviour
     GameObject FlashbackOutside;
 
     [SerializeField]
+    GameObject TheEnd;
+
+    [SerializeField]
     GameObject Clues;
 
     [SerializeField]
@@ -45,6 +48,15 @@ public class BackgroundManager : MonoBehaviour
         FlashbackOutside.SetActive(false);
         FlashbackInside.SetActive(false);
         DefaultBackground.SetActive(true);
+    }
+
+    public void SetTheEnd()
+    {
+        EnableSprites();
+        FlashbackOutside.SetActive(false);
+        FlashbackInside.SetActive(false);
+        DefaultBackground.SetActive(false);
+        TheEnd.SetActive(true);
     }
 
     private void EnableSprites()
