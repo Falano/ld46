@@ -106,7 +106,7 @@ public enum DialogPrompts
     Bike,
     PlayMusic,
     PhoneNumber,
-    MusicBlog,
+    Blog,
     BlogContactForm,
     Leave
 }

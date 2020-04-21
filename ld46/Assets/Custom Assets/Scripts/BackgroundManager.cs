@@ -52,7 +52,7 @@ public class BackgroundManager : MonoBehaviour
 
     public void SetTheEnd()
     {
-        EnableSprites();
+        DisableSprites();
         FlashbackOutside.SetActive(false);
         FlashbackInside.SetActive(false);
         DefaultBackground.SetActive(false);
