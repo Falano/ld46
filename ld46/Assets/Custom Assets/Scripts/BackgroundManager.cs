@@ -20,6 +20,8 @@ public class BackgroundManager : MonoBehaviour
     [SerializeField]
     List<GameObject> Sprites;
 
+    List<bool> BackupSpritesState;
+
     public void SetFlashbackOutside()
     {
         DisableSprites();
@@ -48,17 +50,19 @@ public class BackgroundManager : MonoBehaviour
     private void EnableSprites()
     {
         Clues.SetActive(true);
-        foreach (var sprite in Sprites)
+        for (var i=0;  i< Sprites.Count;  i++)
         {
-            sprite.SetActive(true);
+            Sprites[i].SetActive(BackupSpritesState[i]);
         }
     }
 
     private void DisableSprites()
     {
         Clues.SetActive(false);
+        BackupSpritesState = new List<bool>();
         foreach (var sprite in Sprites)
         {
+            BackupSpritesState.Add(sprite.activeSelf);
             sprite.SetActive(false);
         }
     }

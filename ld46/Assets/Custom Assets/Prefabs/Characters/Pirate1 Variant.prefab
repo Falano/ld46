@@ -218,7 +218,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 135323609518374596}
   - {fileID: 5718603180921741710}
-  - {fileID: 7891908269071893867}
+  - {fileID: 0}
   - {fileID: 6517389018576272921}
   - {fileID: 7135532532834993374}
   - {fileID: 2824469345433669870}
@@ -470,23 +470,6 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
---- !u!114 &7891908269071893867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2167610587339119737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 230
-  indentLevel: 0
-  targetObject: {fileID: 0}
-  methodName: EndFlashback
-  delay: 0
 --- !u!114 &7979420323892992668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 4297060439210151938, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_Name
-      value: Pirate1
+      value: Pirate1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4827095729331699406, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
@@ -717,6 +700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: selectedBlocks.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9119291271431121654, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}

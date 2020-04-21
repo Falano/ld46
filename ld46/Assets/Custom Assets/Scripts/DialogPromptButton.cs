@@ -10,7 +10,7 @@ public class DialogPromptButton : MonoBehaviour
     [SerializeField]
     private string FungusDialogPromptName;
 
-    private void Start()
+    private void Awake()
     {
         DialogPromptsManager.DialogPromptsDictionary.Add(this, FungusDialogPromptName);
 
