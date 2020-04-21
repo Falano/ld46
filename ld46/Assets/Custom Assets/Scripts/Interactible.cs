@@ -12,11 +12,9 @@ public class Interactible : MonoBehaviour
     [SerializeField]
     BackgroundManager bgManager;
 
-    private void Start()
+    private void Awake()
     {
         InteractiblesManager.InteractiblesList.Add(this);
-        DialogPromptsManager.UpdateDialogPromptButtons();
-        InteractiblesManager.UpdateInteractiblesVisibility();
     }
 
     public void SetActiveFlowChart()
@@ -24,12 +22,13 @@ public class Interactible : MonoBehaviour
         bgManager.DisableSpritesColliders();
         DialogPromptsManager.ActiveFlowChart = this.Flowchart;
         DialogPromptsManager.UpdateDialogPromptButtons();
-        InteractiblesManager.UpdateInteractiblesVisibility();
+        InteractiblesManager.UpdateInteractiblesVisibility(); // to remove once we're sure that every end of dialog passes through LeaveFlowchart()
     }
 
     public void LeaveFlowchart()
     {
         InteractiblesManager.UpdateInteractiblesVisibility();
+        DialogPromptsManager.HideAllPromptButtons();
     }
 
     public void UpdateVisibility()
