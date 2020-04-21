@@ -9,6 +9,8 @@ public class Interactible : MonoBehaviour
     Flowchart Flowchart;
     [SerializeField]
     GameObject Sprite;
+    [SerializeField]
+    BackgroundManager bgManager;
 
     private void Start()
     {
@@ -19,6 +21,7 @@ public class Interactible : MonoBehaviour
 
     public void SetActiveFlowChart()
     {
+        bgManager.DisableSpritesColliders();
         DialogPromptsManager.ActiveFlowChart = this.Flowchart;
         DialogPromptsManager.UpdateDialogPromptButtons();
         InteractiblesManager.UpdateInteractiblesVisibility();

@@ -42,6 +42,14 @@ public class BackgroundManager : MonoBehaviour
         DefaultBackground.SetActive(false);
     }
 
+    public void EnableSpritesColliders()
+    {
+        for (var i = 0; i < Sprites.Count; i++)
+        {
+            Sprites[i].GetComponent<Collider2D>().enabled = true;
+        }
+    }
+
     public void SetDefaultBackground()
     {
         EnableSprites();
@@ -57,6 +65,14 @@ public class BackgroundManager : MonoBehaviour
         FlashbackInside.SetActive(false);
         DefaultBackground.SetActive(false);
         TheEnd.SetActive(true);
+    }
+
+    public void DisableSpritesColliders()
+    {
+        for (var i = 0; i < Sprites.Count; i++)
+        {
+            Sprites[i].GetComponent<Collider2D>().enabled = false;
+        }
     }
 
     private void EnableSprites()

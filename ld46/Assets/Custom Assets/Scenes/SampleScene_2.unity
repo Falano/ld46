@@ -965,6 +965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Flowchart: {fileID: 0}
   Sprite: {fileID: 0}
+  bgManager: {fileID: 0}
 --- !u!114 &609741248
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2705,6 +2706,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464271368}
     m_Modifications:
+    - target: {fileID: 3624896766616563564, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 4297060439210151938, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_Name
@@ -4235,6 +4241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Flowchart: {fileID: 0}
   Sprite: {fileID: 0}
+  bgManager: {fileID: 1376327310}
 --- !u!114 &1650048111
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4343,11 +4350,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 652.0661, y: 385.76285}
+  scrollPos: {x: 593.996, y: 376.89215}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.76599985
+  zoom: 0.84999776
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -4416,7 +4423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1952967827}
+  selectedFlowchart: {fileID: 1650048117}
 --- !u!4 &1826265675
 Transform:
   m_ObjectHideFlags: 1
@@ -4438,6 +4445,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1464271368}
     m_Modifications:
+    - target: {fileID: 3624896766616563564, guid: ac31a8186e038594e9a5eeeffe85659e,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 4297060439210151938, guid: ac31a8186e038594e9a5eeeffe85659e,
         type: 3}
       propertyPath: m_Name
@@ -4653,18 +4665,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1952967827 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8258355055442844828, guid: 0fd9f0616d71d724d882ada208e7194a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1407397237438729709}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952967737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1952967830
@@ -4924,6 +4924,11 @@ PrefabInstance:
       propertyPath: variable
       value: 
       objectReference: {fileID: 1650048102}
+    - target: {fileID: 1490124618602062927, guid: 1cae5dd11f466fb489c38ab96f93bd1d,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 2045971567884183206, guid: 1cae5dd11f466fb489c38ab96f93bd1d,
         type: 3}
       propertyPath: character
@@ -6099,6 +6104,7 @@ GameObject:
   - component: {fileID: 1010458698938719907}
   - component: {fileID: 1010458698938719904}
   - component: {fileID: 1010458698938719910}
+  - component: {fileID: 1010458698938719911}
   m_Layer: 0
   m_Name: Leave
   m_TagString: Untagged
@@ -6118,6 +6124,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ecff8a4e20c44c378978027d67a5abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1010458698938719911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010458698938719909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a4177b0aaea41328e90aac02ae108c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgManager: {fileID: 1376327310}
 --- !u!114 &1010458699419969360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6693,6 +6712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BestFriend
       objectReference: {fileID: 0}
+    - target: {fileID: 4493344843898312966, guid: 0fd9f0616d71d724d882ada208e7194a,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 5686041708477728932, guid: 0fd9f0616d71d724d882ada208e7194a,
         type: 3}
       propertyPath: variable
@@ -7285,6 +7309,11 @@ PrefabInstance:
       propertyPath: commandList.Array.data[23]
       value: 
       objectReference: {fileID: 1472693336}
+    - target: {fileID: 7584160927150718310, guid: 3a2c59b0f0b342f4a8028d4f799b14c4,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 8156405178773826869, guid: 3a2c59b0f0b342f4a8028d4f799b14c4,
         type: 3}
       propertyPath: character
@@ -7326,6 +7355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaptopPerson
       objectReference: {fileID: 0}
+    - target: {fileID: 779399182393305353, guid: 664f8cc0233de254cb093cd6e2dc8bb5,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 1881548340525182568, guid: 664f8cc0233de254cb093cd6e2dc8bb5,
         type: 3}
       propertyPath: commandList.Array.size
@@ -7555,6 +7589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicListener
       objectReference: {fileID: 0}
+    - target: {fileID: 1070514207874569721, guid: b622df9eba90e164e97ba3edf07877b2,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 4763463149174728582, guid: b622df9eba90e164e97ba3edf07877b2,
         type: 3}
       propertyPath: nameColor.r
@@ -8062,6 +8101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirate2
       objectReference: {fileID: 0}
+    - target: {fileID: 3406144556576869192, guid: 00443a49f7dfb8b4d9c260674572f7fc,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 4413218960662880499, guid: 00443a49f7dfb8b4d9c260674572f7fc,
         type: 3}
       propertyPath: clickableObject
@@ -8357,6 +8401,11 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 126237471}
+    - target: {fileID: 5848074650225663431, guid: f41cb05719f7af64dae925fa9007ee33,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 6396388262814933673, guid: f41cb05719f7af64dae925fa9007ee33,
         type: 3}
       propertyPath: m_Name
@@ -8663,6 +8712,11 @@ PrefabInstance:
         phone.\r\nPlayer P_A left: Here.\r\nSam P_C right: And\u2026 Done! I also
         added my number to your contact list.\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5968647361854298580, guid: 01ec31f3545613c41b47045930e322b8,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 6517389018576272921, guid: 01ec31f3545613c41b47045930e322b8,
         type: 3}
       propertyPath: variable
@@ -8741,6 +8795,11 @@ PrefabInstance:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 1351174268}
+    - target: {fileID: 1696684348644735786, guid: 2159de7e39a9a2e42a2aea2a163374ce,
+        type: 3}
+      propertyPath: bgManager
+      value: 
+      objectReference: {fileID: 1376327310}
     - target: {fileID: 2125816238149475045, guid: 2159de7e39a9a2e42a2aea2a163374ce,
         type: 3}
       propertyPath: character
