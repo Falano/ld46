@@ -47,6 +47,29 @@ public static class DialogPromptsManager
     private static Flowchart baseFlowChart;
     private static string baseFlowChartsName = "Base_Flowchart";
 
+    public static Flowchart StartFlowChart
+    {
+        get
+        {
+            if (startFlowChart == null)
+            {
+                // first base flowchart
+                List<Flowchart> flowCharts = Flowchart.CachedFlowcharts;
+                foreach (Flowchart chart in flowCharts)
+                {
+                    if (chart.name == startFlowChartsName)
+                    {
+                        startFlowChart = chart;
+                        break;
+                    }
+                }
+            }
+            return startFlowChart;
+        }
+    }
+    private static Flowchart startFlowChart;
+    private static string startFlowChartsName = "Player_Flowchart";
+
     private static void NotifyFlowChart()
     {
         CheckAndGoToDialog();

@@ -26,7 +26,16 @@ public class GameManager : MonoBehaviour
         DialogPromptsManager.HideAllPromptButtons();
         InteractiblesManager.UpdateInteractiblesVisibility();
 
-        if(startsAtBeginning || !Application.isEditor)
+        if (DialogPromptsManager.ActiveFlowChart)
+        {
+            DialogPromptsManager.ActiveFlowChart.StopAllBlocks();
+        }
+        else
+        {
+            DialogPromptsManager.StartFlowChart.StopAllBlocks();
+        }
+
+        if (startsAtBeginning || !Application.isEditor)
         {
             foreach (VariableState variable in InitialState)
             {
@@ -38,7 +47,6 @@ public class GameManager : MonoBehaviour
                 chara.flowchart.SetBooleanVariable("isAvailable", chara.isAvailable);
             }
         }
-
     }
 
     public void QuitGame()
