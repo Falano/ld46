@@ -6,15 +6,16 @@ using Fungus;
 public class Interactible : MonoBehaviour
 {
     [SerializeField]
-    Flowchart Flowchart;
-    [SerializeField]
     GameObject Sprite;
     [SerializeField]
     BackgroundManager bgManager;
 
+    public Flowchart Flowchart { get; private set; }
+
     private void Awake()
     {
         InteractiblesManager.InteractiblesList.Add(this);
+        Flowchart = GetComponentInChildren<Flowchart>();
     }
 
     public void SetActiveFlowChart()
@@ -27,6 +28,7 @@ public class Interactible : MonoBehaviour
 
     public void LeaveFlowchart()
     {
+        bgManager.EnableSpritesColliders();
         InteractiblesManager.UpdateInteractiblesVisibility();
         DialogPromptsManager.HideAllPromptButtons();
     }

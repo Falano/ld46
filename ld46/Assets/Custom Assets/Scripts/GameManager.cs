@@ -7,7 +7,11 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     List<VariableState> InitialState;
     [SerializeField]
+    List<CharacterAvailability> InitialCharacters;
+    [SerializeField]
     bool startsAtBeginning;
+    [SerializeField]
+    BackgroundManager bgManager;
 
     // Start is called before the first frame update
     void Start()
@@ -15,19 +19,31 @@ public class GameManager : MonoBehaviour
         InitializeScene();
     }
 
-    void InitializeScene()
+    public void InitializeScene()
     {
+        bgManager.SetDefaultBackground();
+        bgManager.DisableSpritesColliders();
         DialogPromptsManager.HideAllPromptButtons();
         InteractiblesManager.UpdateInteractiblesVisibility();
 
-        if(startsAtBeginning)
+        if(startsAtBeginning || !Application.isEditor)
         {
             foreach (VariableState variable in InitialState)
             {
                 DialogPromptsManager.BaseFlowChart.SetBooleanVariable(variable.name, variable.state);
             }
+
+            foreach (CharacterAvailability chara in InitialCharacters)
+            {
+                chara.flowchart.SetBooleanVariable("isAvailable", chara.isAvailable);
+            }
         }
 
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
 
@@ -36,4 +52,11 @@ public class VariableState
 {
     public string name;
     public bool state;
+}
+
+[System.Serializable]
+public class CharacterAvailability
+{
+    public Fungus.Flowchart flowchart;
+    public bool isAvailable;
 }

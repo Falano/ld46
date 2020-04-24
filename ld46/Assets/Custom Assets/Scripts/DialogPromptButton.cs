@@ -13,14 +13,16 @@ public class DialogPromptButton : MonoBehaviour
     private void Awake()
     {
         DialogPromptsManager.DialogPromptsDictionary.Add(this, FungusDialogPromptName);
-
+    }
+    private void Start()
+    {
         if (!DialogPromptsManager.BaseFlowChart.HasVariable(FungusDialogPromptName))
         {
             Debug.LogError("The variable " + FungusDialogPromptName + " doesn't exist for Clue " + LocalDialogPrompt);
         }
     }
 
-    private void OnMouseDown()
+    public void Prompt()
     {
         DialogPromptsManager.ActivePrompt = localDialogPrompt;
     }

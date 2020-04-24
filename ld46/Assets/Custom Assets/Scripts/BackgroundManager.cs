@@ -56,6 +56,7 @@ public class BackgroundManager : MonoBehaviour
         FlashbackOutside.SetActive(false);
         FlashbackInside.SetActive(false);
         DefaultBackground.SetActive(true);
+        TheEnd.SetActive(false);
     }
 
     public void SetTheEnd()
@@ -78,9 +79,12 @@ public class BackgroundManager : MonoBehaviour
     private void EnableSprites()
     {
         Clues.SetActive(true);
-        for (var i=0;  i< Sprites.Count;  i++)
+        if(BackupSpritesState != null)
         {
-            Sprites[i].SetActive(BackupSpritesState[i]);
+        for (var i=0;  i< Sprites.Count;  i++)
+            {
+                Sprites[i].SetActive(BackupSpritesState[i]);
+            }
         }
     }
 
